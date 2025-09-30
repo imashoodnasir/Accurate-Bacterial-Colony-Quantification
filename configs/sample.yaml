@@ -1,0 +1,13 @@
+
+train_im: data/train/images
+train_mk: data/train/masks
+val_im:   data/val/images
+val_mk:   data/val/masks
+test_im:  data/test/images
+test_mk:  data/test/masks
+size: 256
+bs: 8
+lr: 1.0e-4
+base: 32
+epochs: 50
+weights: weights/best.pt
